@@ -6,7 +6,7 @@
 1. `cd ~` 
 2. `ln -s wktools/.vimrc .vimrc`
 3. `ln -s wktools/vim .vim`
-4. `cd ~/wktools && git submodule update`
+4. `cd ~/wktools && git submodule init && git submodule update`
 5. 打开vim,命令模式执行`PluginInstall`
 
 ## git相关配置
