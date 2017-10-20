@@ -11,3 +11,10 @@
 
 ## git相关配置
 * 颜色: `git config --global color.ui true`
+* 字符: `git config --global gui.encoding utf-8`
+* 字符: `git config --global i18n.commitencoding utf-8`
+
+## BASH环境配置
+1. `cd ~`
+2. `ln -s wktools/.bashrc .bashrc`
+3. `ln -s wktools/.git_completion .git_completion`
