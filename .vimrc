@@ -34,6 +34,7 @@ Plugin 'UltiSnips'
 Plugin 'xml.vim'
 Plugin 'rizzatti/funcoo.vim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'fatih/vim-go'
 
 "Plugin 'vim-indent-guides'
 "Plugin 'AutoComplPop'
@@ -279,3 +280,5 @@ let s:makecommand=g:plantuml_executable_script." %"
 
 " define a sensible makeprg for plantuml files
 autocmd Filetype plantuml let &l:makeprg=s:makecommand
+
+let g:go_version_warning = 0
